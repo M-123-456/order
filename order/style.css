@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --mainColor: #04151f;
+  --primeColor: #e2f3ea;
+  --accentColor: #f7b2ad;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--mainColor);
+  background-color: #cad7e2;
+}
+
+form {
+  width: 30%;
+  margin: 2rem auto;
+}
+
+fieldset {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: var(--primeColor);
+  border-radius: 5px;
+  min-width: 30rem;
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accentColor);
+  border: 1px solid var(--accentColor);
+  border-radius: 7px;
+  margin-right: 1rem;
+}
+
+label {
+  line-height: 1.5rem;
+}
+
+input {
+  padding: 3px 4px;
+  margin: 2px 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+span {
+  color: #870058;
+}
+
+.order input,
+select,
+textarea {
+  padding: 3px 4px;
+  margin-bottom: 1.5rem;
+}
+
+#postal_code {
+  width: 8rem;
+}
